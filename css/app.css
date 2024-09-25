@@ -1,0 +1,62 @@
+/* RESET RULES*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+/* FONT */
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+/* LAYOUT */
+
+.full-container {
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 120px;
+    
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 45px;
+    font-size: 15px;
+}
+
+.cta-start {
+    background-color: rgba(0, 97, 255, 1);
+    color: white;
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+}
