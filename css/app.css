@@ -16,6 +16,9 @@ a {
 	text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
 /* FONT */
 
 html {
@@ -31,8 +34,25 @@ html {
 
 .container {
 	margin: 0 auto;
-	padding: 0 120px;
+	padding: 0 350px;
     
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+/* COLOR */
+
+.bg-azure{
+    background-color: rgba(180, 208, 231, 1);
 }
 
 /* NAVBAR */
@@ -52,11 +72,39 @@ html {
     font-size: 15px;
 }
 
-.cta-start {
+.cta {
     background-color: rgba(0, 97, 255, 1);
     color: white;
-    padding-top: 6px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 6px;
+    padding: 6px 15px;
+}
+
+/* HERO */
+
+.hero-title {
+    font-size: 45px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-p {
+    font-size: 11px;
+}
+
+.hero-t {
+    font-size: 13px;
+}
+
+.hero-list {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    column-gap: 100px;
+}
+.hero-list > * {
+    margin-bottom: 20px;
 }
