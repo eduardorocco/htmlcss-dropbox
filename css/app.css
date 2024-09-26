@@ -156,6 +156,7 @@ html {
 
 .card__body {
     border: 1px solid rgba(217, 217, 217, 1);
+    position: relative;
 }
 
 .card__body ul {
@@ -181,12 +182,22 @@ html {
 
 .row .card {
     padding-right: 60px;
+    
+}
+
+.col-4{
+    align-items: stretch;
 }
 
 .no-right-padding {
     padding-right: 0px;
 }
 
+.cta-card{
+    position: absolute;
+    top: 35px;
+    left: 720px;
+}
 /* DEBUG */
 
 .debug [class^='container'] {
