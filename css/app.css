@@ -25,6 +25,13 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
+/* CUSTOM PROPRETIES */
+
+:root {
+    --blue:  rgba(0, 97, 255, 1);
+    --light-blue:  rgba(180, 208, 231, 1);
+    --light-gray:
+}
 /* LAYOUT */
 
 .full-container {
@@ -38,16 +45,16 @@ html {
     
 }
 
-.col-100 {
+.col-12 {
     width: 100%;
 }
 
-.col-40 {
-    width: 40%;
+.col-4 {
+    width: calc(4 * (100% / 12));
 }
 
-.col-60 {
-    width: 60%;
+.col-8 {
+    width: calc(8 * (100% / 12));
 }
 /* COLOR */
 
@@ -56,6 +63,10 @@ html {
 }
 
 /* NAVBAR */
+
+.logo {
+    display: block;
+}
 
 .navbar {
     display: flex;
@@ -81,30 +92,25 @@ html {
 /* HERO */
 
 .hero-title {
-    font-size: 45px;
+    font-size: 70px;
     font-weight: bolder;
     padding-bottom: 40px;
 }
 
 .hero-container {
+    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.hero-p {
-    font-size: 11px;
-}
-
-.hero-t {
-    font-size: 13px;
-}
-
-.hero-list {
+.hero-content {
     display: flex;
-    align-items: start;
-    flex-wrap: wrap;
-    column-gap: 100px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start; 
 }
-.hero-list > * {
-    margin-bottom: 20px;
+
+.hero-icon {
+    font-size: 50px;
+    margin-top: auto;
 }
