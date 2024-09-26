@@ -30,7 +30,6 @@ html {
 :root {
     --blue:  rgba(0, 97, 255, 1);
     --light-blue:  rgba(180, 208, 231, 1);
-    --light-gray:
 }
 /* LAYOUT */
 
@@ -61,6 +60,10 @@ html {
 
 .col-8 {
     width: calc(8 * (100% / 12));
+}
+
+.text-sm {
+    font-size: 14px;
 }
 /* COLOR */
 
@@ -127,11 +130,14 @@ html {
     margin-top: auto;
 }
 
-.container-sm h2 {
-    padding-top: 160px;
-}
+
 
 /* PLANS SECTION */
+
+.container-sm h2 {
+    padding-top: 160px;
+    font-size: 30px;
+}
 
 .toggle-actions {
     display: flex;
