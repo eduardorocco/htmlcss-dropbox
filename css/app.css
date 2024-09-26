@@ -127,14 +127,24 @@ html {
     margin-top: auto;
 }
 
+.container-sm h2 {
+    padding-top: 160px;
+}
+
 /* PLANS SECTION */
 
+.toggle-actions {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    gap: 50px;
+}
 
 /* DEBUG */
 
 .debug [class^='container'] {
 	border: 2px solid black;
-	padding: 20px;
+	padding-top: 20px;
 }
 
 .debug .row {
