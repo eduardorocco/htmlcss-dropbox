@@ -146,6 +146,18 @@ html {
     gap: 50px;
 }
 
+/* CARD */
+.card__header {
+    border: 1px solid rgba(217, 217, 217, 1);
+    text-align: center;
+    border-bottom: none;
+}
+
+.card__body {
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+
+
 /* DEBUG */
 
 .debug [class^='container'] {
