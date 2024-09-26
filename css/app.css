@@ -157,6 +157,13 @@ html {
     border: 1px solid rgba(217, 217, 217, 1);
 }
 
+.card__body ul {
+    padding: 40px 30px;
+}
+
+.card__body li:not(:last-child){
+    padding-bottom: 20px;
+}
 
 /* DEBUG */
 
