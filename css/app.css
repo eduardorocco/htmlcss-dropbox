@@ -68,6 +68,12 @@ html {
     background-color: rgba(180, 208, 231, 1);
 }
 
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 50px;
+}
+
 /* NAVBAR */
 
 .logo {
@@ -121,14 +127,8 @@ html {
     margin-top: auto;
 }
 
-.btn {
-	display: inline-block;
-	background-color: var(--blue);
-	color: var(--white);
-	line-height: 44px;
-	padding: 0px 16px;
-	text-align: center;
-}
+/* PLANS SECTION */
+
 
 /* DEBUG */
 
