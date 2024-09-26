@@ -151,6 +151,7 @@ html {
     border: 1px solid rgba(217, 217, 217, 1);
     text-align: center;
     border-bottom: none;
+    padding: 10px 0px;
 }
 
 .card__body {
@@ -176,6 +177,14 @@ html {
 
 .fa-check {
     color: var(--blue);
+}
+
+.row .card {
+    padding-right: 60px;
+}
+
+.no-right-padding {
+    padding-right: 0px;
 }
 
 /* DEBUG */
